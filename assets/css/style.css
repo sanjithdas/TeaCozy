@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica, Arial;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  padding: 20px;
+  margin: 140px;
+}
+#logo {
+  line-height: 10px;
+  height: 50px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.menu {
+  float: right;
+}
+.clear {
+  clear: float;
+}
+.item {
+  display: inline-block;
+  text-decoration: underline;
+}
+.menu .first {
+  width: 100px;
+}
+.menu .second {
+  width: 150px;
+}
+.menu .third {
+  width: 120px;
+}
+.mission {
+  margin: 20px;
+  background: url("/assets/images/img-mission-background.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.statement {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+
+  top: 50%;
+  text-align: center;
+}
+.tea-msg {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.tea-sub {
+  margin-top: 30px;
+  text-align: center;
+}
+.tea-img {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.tea-item {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+.first {
+  display: inline-block;
+}
+.location {
+  height: 700px;
+  width: auto;
+  background-image: url("/assets/images/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 30px;
+  position: relative;
+}
+
+.address {
+  width: 300px;
+}
+
+.loc {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.locations {
+  width: 70%;
+  height: 200px;
+  margin: 0 auto;
+
+  position: absolute;
+  top: 37%;
+  left: 15%;
+  text-align: center;
+}
+
+.items {
+  width: 300px;
+  background-color: black;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+.item-loc3 {
+  opacity: 1 !important;
+}
+.about {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.foot {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+  position: fixed;
+  bottom: 0;
+}
