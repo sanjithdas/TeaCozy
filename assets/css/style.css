@@ -45,7 +45,7 @@ body {
 }
 .mission {
   margin: 20px;
-  background: url("../assets/images/img-mission-background.jpg");
+  background: url("../images/img-mission-background.jpg");
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
