@@ -84,7 +84,7 @@ body {
 .location {
   height: 700px;
   width: auto;
-  background-image: url("/assets/images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 30px;
